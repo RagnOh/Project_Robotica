@@ -1,0 +1,4 @@
+Invoking command in '/home/mik/denso_ws/build/bcap_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/bcap_core -- -j8 -l8
+Invoked command in '/home/mik/denso_ws/build/bcap_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/bcap_core -- -j8 -l8
+Invoking command in '/home/mik/denso_ws/build/bcap_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/bcap_core
+Invoked command in '/home/mik/denso_ws/build/bcap_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/bcap_core

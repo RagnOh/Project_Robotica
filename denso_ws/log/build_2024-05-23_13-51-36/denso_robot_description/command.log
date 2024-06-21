@@ -1,0 +1,6 @@
+Invoking command in '/home/mik/denso_ws/build/denso_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mik/denso_ws/src/denso_robot_ros2/denso_robot_description -DCMAKE_INSTALL_PREFIX=/home/mik/denso_ws/install/denso_robot_description
+Invoked command in '/home/mik/denso_ws/build/denso_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mik/denso_ws/src/denso_robot_ros2/denso_robot_description -DCMAKE_INSTALL_PREFIX=/home/mik/denso_ws/install/denso_robot_description
+Invoking command in '/home/mik/denso_ws/build/denso_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/denso_robot_description -- -j8 -l8
+Invoked command in '/home/mik/denso_ws/build/denso_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/denso_robot_description -- -j8 -l8
+Invoking command in '/home/mik/denso_ws/build/denso_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/denso_robot_description
+Invoked command in '/home/mik/denso_ws/build/denso_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/denso_robot_description

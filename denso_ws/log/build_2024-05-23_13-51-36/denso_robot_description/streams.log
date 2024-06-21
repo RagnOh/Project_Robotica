@@ -1,0 +1,68 @@
+[0.005s] Invoking command in '/home/mik/denso_ws/build/denso_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mik/denso_ws/src/denso_robot_ros2/denso_robot_description -DCMAKE_INSTALL_PREFIX=/home/mik/denso_ws/install/denso_robot_description
+[0.031s] -- The C compiler identification is GNU 11.4.0
+[0.061s] -- The CXX compiler identification is GNU 11.4.0
+[0.065s] -- Detecting C compiler ABI info
+[0.101s] -- Detecting C compiler ABI info - done
+[0.105s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.106s] -- Detecting C compile features
+[0.106s] -- Detecting C compile features - done
+[0.107s] -- Detecting CXX compiler ABI info
+[0.146s] -- Detecting CXX compiler ABI info - done
+[0.150s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.151s] -- Detecting CXX compile features
+[0.151s] -- Detecting CXX compile features - done
+[0.152s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.228s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.273s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.312s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.312s] -- Added test 'lint_cmake' to check CMake code style
+[0.312s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.313s] -- Added test 'xmllint' to check XML markup files
+[0.313s] -- Configuring done
+[0.315s] -- Generating done
+[0.315s] -- Build files have been written to: /home/mik/denso_ws/build/denso_robot_description
+[0.319s] Invoked command in '/home/mik/denso_ws/build/denso_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mik/denso_ws/src/denso_robot_ros2/denso_robot_description -DCMAKE_INSTALL_PREFIX=/home/mik/denso_ws/install/denso_robot_description
+[0.320s] Invoking command in '/home/mik/denso_ws/build/denso_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/denso_robot_description -- -j8 -l8
+[0.338s] Invoked command in '/home/mik/denso_ws/build/denso_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/denso_robot_description -- -j8 -l8
+[0.353s] Invoking command in '/home/mik/denso_ws/build/denso_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/denso_robot_description
+[0.358s] -- Install configuration: ""
+[0.358s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/config
+[0.358s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/config/initial_positions.yaml
+[0.358s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/config/.gitkeep
+[0.358s] -- Up-to-date: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description
+[0.358s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/view_denso_robot.launch.py
+[0.358s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J1.dae
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J6.dae
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J5.dae
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J2.dae
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J4.dae
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/.gitkeep
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/base_link.dae
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J3.dae
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/rviz
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/rviz/denso_robot.rviz
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/denso_robot
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/denso_robot/denso_robot_macro.xacro
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/denso_robot/denso_robot_macro.ros2_control.xacro
+[0.359s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/denso_robot.urdf.xacro
+[0.360s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/common.xacro
+[0.360s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/ament_index/resource_index/package_run_dependencies/denso_robot_description
+[0.360s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/ament_index/resource_index/parent_prefix_path/denso_robot_description
+[0.360s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/environment/ament_prefix_path.sh
+[0.360s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/environment/ament_prefix_path.dsv
+[0.360s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/environment/path.sh
+[0.360s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/environment/path.dsv
+[0.361s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/local_setup.bash
+[0.361s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/local_setup.sh
+[0.361s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/local_setup.zsh
+[0.361s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/local_setup.dsv
+[0.361s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/package.dsv
+[0.361s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/ament_index/resource_index/packages/denso_robot_description
+[0.362s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/cmake/denso_robot_descriptionConfig.cmake
+[0.362s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/cmake/denso_robot_descriptionConfig-version.cmake
+[0.362s] -- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/package.xml
+[0.362s] Invoked command in '/home/mik/denso_ws/build/denso_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/denso_robot_description

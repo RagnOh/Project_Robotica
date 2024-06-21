@@ -1,0 +1,15 @@
+/home/mik/denso_ws/install/denso_robot_ros/share/ament_index/resource_index/package_run_dependencies/denso_robot_ros
+/home/mik/denso_ws/install/denso_robot_ros/share/ament_index/resource_index/parent_prefix_path/denso_robot_ros
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/environment/ament_prefix_path.sh
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/environment/ament_prefix_path.dsv
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/environment/path.sh
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/environment/path.dsv
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/local_setup.bash
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/local_setup.sh
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/local_setup.zsh
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/local_setup.dsv
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/package.dsv
+/home/mik/denso_ws/install/denso_robot_ros/share/ament_index/resource_index/packages/denso_robot_ros
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/cmake/denso_robot_rosConfig.cmake
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/cmake/denso_robot_rosConfig-version.cmake
+/home/mik/denso_ws/install/denso_robot_ros/share/denso_robot_ros/package.xml

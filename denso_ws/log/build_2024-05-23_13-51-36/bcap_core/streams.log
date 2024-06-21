@@ -1,0 +1,112 @@
+[0.007s] Invoking command in '/home/mik/denso_ws/build/bcap_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mik/denso_ws/src/denso_robot_ros2/bcap_core -DCMAKE_INSTALL_PREFIX=/home/mik/denso_ws/install/bcap_core
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.070s] -- The CXX compiler identification is GNU 11.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.109s] -- Detecting C compiler ABI info - done
+[0.113s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.113s] -- Detecting C compile features
+[0.114s] -- Detecting C compile features - done
+[0.116s] -- Detecting CXX compiler ABI info
+[0.155s] -- Detecting CXX compiler ABI info - done
+[0.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.160s] -- Detecting CXX compile features
+[0.160s] -- Detecting CXX compile features - done
+[0.161s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.237s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.282s] -- _USE_CATKIN=ON
+[0.282s] -- _USE_LINUX_API=ON
+[0.282s] -- _DN_USE_VARIANT_API=ON
+[0.282s] -- _DN_USE_BSTR_API=ON
+[0.282s] -- BUILD_SHARED_LIBS=OFF
+[0.314s] -- Configuring done
+[0.318s] -- Generating done
+[0.319s] -- Build files have been written to: /home/mik/denso_ws/build/bcap_core
+[0.322s] Invoked command in '/home/mik/denso_ws/build/bcap_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mik/denso_ws/src/denso_robot_ros2/bcap_core -DCMAKE_INSTALL_PREFIX=/home/mik/denso_ws/install/bcap_core
+[0.323s] Invoking command in '/home/mik/denso_ws/build/bcap_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/bcap_core -- -j8 -l8
+[0.345s] [  3%] [32mBuilding C object CMakeFiles/rac_string.dir/src/dn_common.c.o[0m
+[0.345s] [  6%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/dn_com.c.o[0m
+[0.345s] [  9%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/bcap_common.c.o[0m
+[0.345s] [ 15%] [32mBuilding C object CMakeFiles/rac_string.dir/src/RACString/rac_string.c.o[0m
+[0.345s] [ 15%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/bCAPClient/bcap_client.c.o[0m
+[0.346s] [ 21%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/dn_common.c.o[0m
+[0.346s] [ 18%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/bCAPServer/bcap_server.c.o[0m
+[0.349s] [ 25%] [32mBuilding C object CMakeFiles/tpcomm.dir/src/TPComm/dn_tpcomm.c.o[0m
+[0.415s] [ 28%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/dn_device.c.o[0m
+[0.436s] [ 31%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/dn_socket.c.o[0m
+[0.480s] [ 34%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/dn_tcp.c.o[0m
+[0.489s] [ 37%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/dn_thread.c.o[0m
+[0.489s] [ 40%] [32mBuilding C object CMakeFiles/bcap_server.dir/src/dn_udp.c.o[0m
+[0.512s] [ 43%] [32mBuilding C object CMakeFiles/tpcomm.dir/src/dn_com.c.o[0m
+[0.525s] [ 46%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/bcap_common.c.o[0m
+[0.539s] [ 50%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/dn_common.c.o[0m
+[0.544s] [ 53%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/dn_com.c.o[0m
+[0.565s] [ 56%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/dn_device.c.o[0m
+[0.569s] [ 59%] [32mBuilding C object CMakeFiles/tpcomm.dir/src/dn_common.c.o[0m
+[0.606s] [ 62%] [32m[1mLinking C shared library librac_string.so[0m
+[0.614s] [ 65%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/dn_socket.c.o[0m
+[0.617s] [ 68%] [32m[1mLinking C shared library libbcap_server.so[0m
+[0.628s] [ 68%] Built target rac_string
+[0.632s] [ 71%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/dn_thread.c.o[0m
+[0.637s] [ 71%] Built target bcap_server
+[0.644s] [ 75%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/dn_udp.c.o[0m
+[0.644s] [ 78%] [32mBuilding C object CMakeFiles/tpcomm.dir/src/dn_device.c.o[0m
+[0.645s] [ 81%] [32mBuilding C object CMakeFiles/bcap_client.dir/src/dn_tcp.c.o[0m
+[0.657s] [ 84%] [32mBuilding C object CMakeFiles/tpcomm.dir/src/dn_robotalk.c.o[0m
+[0.679s] [ 87%] [32mBuilding C object CMakeFiles/tpcomm.dir/src/dn_socket.c.o[0m
+[0.707s] [ 90%] [32mBuilding C object CMakeFiles/tpcomm.dir/src/dn_udp.c.o[0m
+[0.708s] [ 93%] [32mBuilding C object CMakeFiles/tpcomm.dir/src/dn_thread.c.o[0m
+[0.775s] [ 96%] [32m[1mLinking C shared library libbcap_client.so[0m
+[0.793s] [100%] [32m[1mLinking C shared library libtpcomm.so[0m
+[0.794s] [100%] Built target bcap_client
+[0.810s] [100%] Built target tpcomm
+[0.815s] Invoked command in '/home/mik/denso_ws/build/bcap_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/bcap_core -- -j8 -l8
+[0.840s] Invoking command in '/home/mik/denso_ws/build/bcap_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/bcap_core
+[0.843s] -- Install configuration: "RelWithDebInfo"
+[0.843s] -- Installing: /home/mik/denso_ws/install/bcap_core/lib/libbcap_client.so
+[0.843s] -- Installing: /home/mik/denso_ws/install/bcap_core/lib/libbcap_server.so
+[0.843s] -- Installing: /home/mik/denso_ws/install/bcap_core/lib/librac_string.so
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/lib/libtpcomm.so
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/stdint
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/stdint/stdint.h
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_common.h
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_tcp.h
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_robotalk.h
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/bCAPClient
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/bCAPClient/bcap_client.h
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_thread.h
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/bcap_common.h
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/bCAPServer
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/bCAPServer/bcap_server.h
+[0.844s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/bCAPServer/bcap_mapid.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_com.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/RACString
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/RACString/rac_string.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_udp.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/TPComm
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/TPComm/dn_tpcomm.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/bcap_funcid.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_device.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_socket.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/include/bcap_core/dn_additional.h
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/environment/library_path.sh
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/environment/library_path.dsv
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/ament_index/resource_index/package_run_dependencies/bcap_core
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/ament_index/resource_index/parent_prefix_path/bcap_core
+[0.845s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/environment/ament_prefix_path.sh
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/environment/ament_prefix_path.dsv
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/environment/path.sh
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/environment/path.dsv
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/local_setup.bash
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/local_setup.sh
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/local_setup.zsh
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/local_setup.dsv
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/package.dsv
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/ament_index/resource_index/packages/bcap_core
+[0.846s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.847s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/cmake/ament_cmake_export_libraries-extras.cmake
+[0.847s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/cmake/bcap_coreConfig.cmake
+[0.847s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/cmake/bcap_coreConfig-version.cmake
+[0.847s] -- Installing: /home/mik/denso_ws/install/bcap_core/share/bcap_core/package.xml
+[0.848s] Invoked command in '/home/mik/denso_ws/build/bcap_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/bcap_core

@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mik/denso_ws/build/denso_robot_description
+-- Install configuration: ""
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/config
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/config/initial_positions.yaml
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/config/.gitkeep
+-- Up-to-date: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/view_denso_robot.launch.py
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J1.dae
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J6.dae
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J5.dae
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J2.dae
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J4.dae
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/.gitkeep
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/base_link.dae
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/meshes/denso_robot/visual/J3.dae
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/rviz
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/rviz/denso_robot.rviz
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/denso_robot
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/denso_robot/denso_robot_macro.xacro
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/denso_robot/denso_robot_macro.ros2_control.xacro
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/denso_robot.urdf.xacro
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/urdf/common.xacro
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/ament_index/resource_index/package_run_dependencies/denso_robot_description
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/ament_index/resource_index/parent_prefix_path/denso_robot_description
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/environment/path.sh
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/environment/path.dsv
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/local_setup.bash
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/local_setup.sh
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/local_setup.zsh
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/local_setup.dsv
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/package.dsv
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/ament_index/resource_index/packages/denso_robot_description
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/cmake/denso_robot_descriptionConfig.cmake
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/cmake/denso_robot_descriptionConfig-version.cmake
+-- Installing: /home/mik/denso_ws/install/denso_robot_description/share/denso_robot_description/package.xml

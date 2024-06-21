@@ -1,0 +1,10 @@
+In file included from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/bcap_service/include/bcap_service/bcap_service.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/bcap_service/src/bcap_service.cpp:1[m[K:
+/home/mik/denso_ws/src/denso_robot_ros2/bcap_service/include/bcap_service/variant_allocator.h: In instantiation of ‘[01m[Kvoid VariantAllocator<T>::deallocate(VariantAllocator<T>::pointer, VariantAllocator<T>::size_type) [with T = VARIANT; VariantAllocator<T>::pointer = VARIANT*; VariantAllocator<T>::size_type = long unsigned int][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:345:23:[m[K   required from ‘[01m[Kstatic void std::allocator_traits< <template-parameter-1-1> >::deallocate(_Alloc&, std::allocator_traits< <template-parameter-1-1> >::pointer, std::allocator_traits< <template-parameter-1-1> >::size_type) [with _Alloc = VariantAllocator<VARIANT>; std::allocator_traits< <template-parameter-1-1> >::pointer = VARIANT*; std::allocator_traits< <template-parameter-1-1> >::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:354:19:[m[K   required from ‘[01m[Kvoid std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>; std::_Vector_base<_Tp, _Alloc>::pointer = VARIANT*; std::size_t = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:335:2:[m[K   required from ‘[01m[Kstd::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K   required from here
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/bcap_service/include/bcap_service/variant_allocator.h:74:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |   void deallocate(pointer p, [01;35m[Ksize_type n[m[K)
+      |                              [01;35m[K~~~~~~~~~~^[m[K

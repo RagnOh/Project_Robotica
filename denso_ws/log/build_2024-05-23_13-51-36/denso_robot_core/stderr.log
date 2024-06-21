@@ -1,0 +1,152 @@
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:[m[K In member function ‘[01m[KHRESULT denso2::DensoRobot::ExecDrive(const string&, const VARIANT_Ptr&)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:384:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  384 |     int [01;35m[Kargc[m[K;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:[m[K In member function ‘[01m[Kvoid denso2::DensoRobot::put_SendUserIO(const denso2::UserIO&)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:782:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  782 |   if ([01;35m[Kvalue.size < value.value.size()[m[K)
+      |       [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:[m[K In member function ‘[01m[KHRESULT denso2::DensoRobot::CreatePoseData(const denso2::PoseData&, VARIANT&)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:836:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  836 |   uint32_t i, [01;35m[Kj[m[K;
+      |               [01;35m[K^[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:[m[K In member function ‘[01m[KHRESULT denso2::DensoRobot::CreateExJoints(const denso2::ExJoints&, VARIANT&)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:878:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  878 |   uint32_t i, [01;35m[Kj[m[K;
+      |               [01;35m[K^[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:[m[K In member function ‘[01m[KHRESULT denso2::DensoRobot::CreateSendParameter(const std::vector<double>&, bcap_service::VARIANT_Ptr&, int, int, int, int, int, int, const std::vector<unsigned char>&)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:1055:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1055 |     if ([01;35m[Ksend_userio_size < send_userio.size()[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:[m[K In member function ‘[01m[KHRESULT denso2::DensoRobot::ParseRecvParameter(const VARIANT_Ptr&, std::vector<double>&, std::vector<double>&, std::vector<double>&, int&, int&, int&, std::vector<unsigned char>&, std::vector<double>&)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:1219:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1219 |     if ([01;35m[Kjoints != recv->parray->rgsabound->cElements[m[K)
+      |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:1237:13:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1237 |     if ([01;35m[Knum != recv->parray->rgsabound->cElements[m[K)
+      |         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:1262:62:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1262 |       if ((pvnt[offset].vt != (VT_ARRAY | VT_R8)) || ([01;35m[Kjoints != pvnt[offset].parray->rgsabound->cElements[m[K))
+      |                                                       [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:1166:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1166 |   int [01;35m[Kj[m[K = 0, j1 = 0, j2 = 0, joints = 0;
+      |       [01;35m[K^[m[K
+In file included from [01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/bcap_service.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_base.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_base.cpp:26[m[K:
+/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h: In instantiation of ‘[01m[Kvoid VariantAllocator<T>::deallocate(VariantAllocator<T>::pointer, VariantAllocator<T>::size_type) [with T = VARIANT; VariantAllocator<T>::pointer = VARIANT*; VariantAllocator<T>::size_type = long unsigned int][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:345:23:[m[K   required from ‘[01m[Kstatic void std::allocator_traits< <template-parameter-1-1> >::deallocate(_Alloc&, std::allocator_traits< <template-parameter-1-1> >::pointer, std::allocator_traits< <template-parameter-1-1> >::size_type) [with _Alloc = VariantAllocator<VARIANT>; std::allocator_traits< <template-parameter-1-1> >::pointer = VARIANT*; std::allocator_traits< <template-parameter-1-1> >::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:354:19:[m[K   required from ‘[01m[Kvoid std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>; std::_Vector_base<_Tp, _Alloc>::pointer = VARIANT*; std::size_t = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:335:2:[m[K   required from ‘[01m[Kstd::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K   required from here
+[01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h:74:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |   void deallocate(pointer p, [01;35m[Ksize_type n[m[K)
+      |                              [01;35m[K~~~~~~~~~~^[m[K
+In file included from [01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/bcap_service.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_base.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_robot.hpp:28[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot.cpp:25[m[K:
+/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h: In instantiation of ‘[01m[Kvoid VariantAllocator<T>::deallocate(VariantAllocator<T>::pointer, VariantAllocator<T>::size_type) [with T = VARIANT; VariantAllocator<T>::pointer = VARIANT*; VariantAllocator<T>::size_type = long unsigned int][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:345:23:[m[K   required from ‘[01m[Kstatic void std::allocator_traits< <template-parameter-1-1> >::deallocate(_Alloc&, std::allocator_traits< <template-parameter-1-1> >::pointer, std::allocator_traits< <template-parameter-1-1> >::size_type) [with _Alloc = VariantAllocator<VARIANT>; std::allocator_traits< <template-parameter-1-1> >::pointer = VARIANT*; std::allocator_traits< <template-parameter-1-1> >::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:354:19:[m[K   required from ‘[01m[Kvoid std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>; std::_Vector_base<_Tp, _Alloc>::pointer = VARIANT*; std::size_t = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:335:2:[m[K   required from ‘[01m[Kstd::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K   required from here
+[01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h:74:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |   void deallocate(pointer p, [01;35m[Ksize_type n[m[K)
+      |                              [01;35m[K~~~~~~~~~~^[m[K
+In file included from [01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/bcap_service.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_base.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_controller.hpp:28[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_controller.cpp:25[m[K:
+/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h: In instantiation of ‘[01m[Kvoid VariantAllocator<T>::deallocate(VariantAllocator<T>::pointer, VariantAllocator<T>::size_type) [with T = VARIANT; VariantAllocator<T>::pointer = VARIANT*; VariantAllocator<T>::size_type = long unsigned int][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:345:23:[m[K   required from ‘[01m[Kstatic void std::allocator_traits< <template-parameter-1-1> >::deallocate(_Alloc&, std::allocator_traits< <template-parameter-1-1> >::pointer, std::allocator_traits< <template-parameter-1-1> >::size_type) [with _Alloc = VariantAllocator<VARIANT>; std::allocator_traits< <template-parameter-1-1> >::pointer = VARIANT*; std::allocator_traits< <template-parameter-1-1> >::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:354:19:[m[K   required from ‘[01m[Kvoid std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>; std::_Vector_base<_Tp, _Alloc>::pointer = VARIANT*; std::size_t = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:335:2:[m[K   required from ‘[01m[Kstd::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K   required from here
+[01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h:74:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |   void deallocate(pointer p, [01;35m[Ksize_type n[m[K)
+      |                              [01;35m[K~~~~~~~~~~^[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot_core.cpp:[m[K In member function ‘[01m[KHRESULT denso2::DensoRobotCore::Initialize(int, std::string, int, std::string)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot_core.cpp:45:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kctrl_cycle_msec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   45 |   float [01;35m[Kctrl_cycle_msec[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot_core.cpp:69:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   69 |   HRESULT [01;35m[Khr[m[K = ctrl_->InitializeBCAP(filename);
+      |           [01;35m[K^~[m[K
+In file included from [01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/bcap_service.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_base.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_controller.hpp:28[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_controller_rc9.hpp:28[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_controller_rc9.cpp:25[m[K:
+/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h: In instantiation of ‘[01m[Kvoid VariantAllocator<T>::deallocate(VariantAllocator<T>::pointer, VariantAllocator<T>::size_type) [with T = VARIANT; VariantAllocator<T>::pointer = VARIANT*; VariantAllocator<T>::size_type = long unsigned int][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:345:23:[m[K   required from ‘[01m[Kstatic void std::allocator_traits< <template-parameter-1-1> >::deallocate(_Alloc&, std::allocator_traits< <template-parameter-1-1> >::pointer, std::allocator_traits< <template-parameter-1-1> >::size_type) [with _Alloc = VariantAllocator<VARIANT>; std::allocator_traits< <template-parameter-1-1> >::pointer = VARIANT*; std::allocator_traits< <template-parameter-1-1> >::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:354:19:[m[K   required from ‘[01m[Kvoid std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>; std::_Vector_base<_Tp, _Alloc>::pointer = VARIANT*; std::size_t = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:335:2:[m[K   required from ‘[01m[Kstd::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K   required from here
+[01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h:74:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |   void deallocate(pointer p, [01;35m[Ksize_type n[m[K)
+      |                              [01;35m[K~~~~~~~~~~^[m[K
+In file included from [01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/bcap_service.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_base.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_controller.hpp:28[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_controller_rc8.hpp:28[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_controller_rc8.cpp:25[m[K:
+/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h: In instantiation of ‘[01m[Kvoid VariantAllocator<T>::deallocate(VariantAllocator<T>::pointer, VariantAllocator<T>::size_type) [with T = VARIANT; VariantAllocator<T>::pointer = VARIANT*; VariantAllocator<T>::size_type = long unsigned int][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:345:23:[m[K   required from ‘[01m[Kstatic void std::allocator_traits< <template-parameter-1-1> >::deallocate(_Alloc&, std::allocator_traits< <template-parameter-1-1> >::pointer, std::allocator_traits< <template-parameter-1-1> >::size_type) [with _Alloc = VariantAllocator<VARIANT>; std::allocator_traits< <template-parameter-1-1> >::pointer = VARIANT*; std::allocator_traits< <template-parameter-1-1> >::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:354:19:[m[K   required from ‘[01m[Kvoid std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>; std::_Vector_base<_Tp, _Alloc>::pointer = VARIANT*; std::size_t = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:335:2:[m[K   required from ‘[01m[Kstd::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K   required from here
+[01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h:74:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |   void deallocate(pointer p, [01;35m[Ksize_type n[m[K)
+      |                              [01;35m[K~~~~~~~~~~^[m[K
+In file included from [01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/bcap_service.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_base.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_robot.hpp:28[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_robot_rc8.hpp:29[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_robot_rc8_cobotta.hpp:29[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_robot_rc8_cobotta.cpp:25[m[K:
+/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h: In instantiation of ‘[01m[Kvoid VariantAllocator<T>::deallocate(VariantAllocator<T>::pointer, VariantAllocator<T>::size_type) [with T = VARIANT; VariantAllocator<T>::pointer = VARIANT*; VariantAllocator<T>::size_type = long unsigned int][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:345:23:[m[K   required from ‘[01m[Kstatic void std::allocator_traits< <template-parameter-1-1> >::deallocate(_Alloc&, std::allocator_traits< <template-parameter-1-1> >::pointer, std::allocator_traits< <template-parameter-1-1> >::size_type) [with _Alloc = VariantAllocator<VARIANT>; std::allocator_traits< <template-parameter-1-1> >::pointer = VARIANT*; std::allocator_traits< <template-parameter-1-1> >::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:354:19:[m[K   required from ‘[01m[Kvoid std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>; std::_Vector_base<_Tp, _Alloc>::pointer = VARIANT*; std::size_t = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:335:2:[m[K   required from ‘[01m[Kstd::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K   required from here
+[01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h:74:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |   void deallocate(pointer p, [01;35m[Ksize_type n[m[K)
+      |                              [01;35m[K~~~~~~~~~~^[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:[m[K In constructor ‘[01m[Kdenso2::DensoVariable::DensoVariable(denso2::DensoBase*, denso2::Service_Vec&, denso2::Handle_Vec&, const string&, const int*, int16_t, bool, bool, bool, int)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:30:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KDuration[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   30 |                              const int* mode, int16_t vt, bool Read, bool Write, bool ID, [01;35m[Kint Duration[m[K)
+      |                                                                                           [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:[m[K In member function ‘[01m[Kvirtual bool denso2::DensoVariable::Update()[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:84:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KvarI[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   84 |     int32_t [01;35m[KvarI[m[K;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:86:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KvarF[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   86 |     float [01;35m[KvarF[m[K;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:87:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KvarD[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   87 |     double [01;35m[KvarD[m[K;
+      |            [01;35m[K^~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:89:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KvarIO[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   89 |     bool [01;35m[KvarIO[m[K;
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:[m[K In member function ‘[01m[KHRESULT denso2::DensoVariable::ExecPutValue(const VARIANT_Ptr&)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:165:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  165 |   int [01;35m[Kargc[m[K;
+      |       [01;35m[K^~~~[m[K
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:[m[K In member function ‘[01m[KHRESULT denso2::DensoVariable::ExecPutID(int)[m[K’:
+[01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:191:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  191 |   int [01;35m[Kargc[m[K;
+      |       [01;35m[K^~~~[m[K
+In file included from [01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/bcap_service.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_base.hpp:15[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/include/denso_robot_core/denso_variable.hpp:28[m[K,
+                 from [01m[K/home/mik/denso_ws/src/denso_robot_ros2/denso_robot_core/src/denso_variable.cpp:25[m[K:
+/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h: In instantiation of ‘[01m[Kvoid VariantAllocator<T>::deallocate(VariantAllocator<T>::pointer, VariantAllocator<T>::size_type) [with T = VARIANT; VariantAllocator<T>::pointer = VARIANT*; VariantAllocator<T>::size_type = long unsigned int][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:345:23:[m[K   required from ‘[01m[Kstatic void std::allocator_traits< <template-parameter-1-1> >::deallocate(_Alloc&, std::allocator_traits< <template-parameter-1-1> >::pointer, std::allocator_traits< <template-parameter-1-1> >::size_type) [with _Alloc = VariantAllocator<VARIANT>; std::allocator_traits< <template-parameter-1-1> >::pointer = VARIANT*; std::allocator_traits< <template-parameter-1-1> >::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:354:19:[m[K   required from ‘[01m[Kvoid std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>; std::_Vector_base<_Tp, _Alloc>::pointer = VARIANT*; std::size_t = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:335:2:[m[K   required from ‘[01m[Kstd::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = VARIANT; _Alloc = VariantAllocator<VARIANT>][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K   required from here
+[01m[K/home/mik/denso_ws/install/bcap_service/include/bcap_service/variant_allocator.h:74:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |   void deallocate(pointer p, [01;35m[Ksize_type n[m[K)
+      |                              [01;35m[K~~~~~~~~~~^[m[K

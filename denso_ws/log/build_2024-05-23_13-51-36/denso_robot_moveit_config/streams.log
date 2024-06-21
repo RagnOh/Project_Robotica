@@ -1,0 +1,82 @@
+[0.001s] Invoking command in '/home/mik/denso_ws/build/denso_robot_moveit_config': AMENT_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:/opt/ros/humble /usr/bin/cmake /home/mik/denso_ws/src/denso_robot_ros2/denso_robot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/mik/denso_ws/install/denso_robot_moveit_config
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.351s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.476s] -- Configuring done
+[0.478s] -- Generating done
+[0.478s] -- Build files have been written to: /home/mik/denso_ws/build/denso_robot_moveit_config
+[0.481s] Invoked command in '/home/mik/denso_ws/build/denso_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:/opt/ros/humble /usr/bin/cmake /home/mik/denso_ws/src/denso_robot_ros2/denso_robot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/mik/denso_ws/install/denso_robot_moveit_config
+[0.482s] Invoking command in '/home/mik/denso_ws/build/denso_robot_moveit_config': AMENT_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/denso_robot_moveit_config -- -j8 -l8
+[0.503s] Built target ament_cmake_python_copy_denso_robot_moveit_config
+[0.613s] running egg_info
+[0.614s] creating denso_robot_moveit_config.egg-info
+[0.614s] writing denso_robot_moveit_config.egg-info/PKG-INFO
+[0.614s] writing dependency_links to denso_robot_moveit_config.egg-info/dependency_links.txt
+[0.614s] writing top-level names to denso_robot_moveit_config.egg-info/top_level.txt
+[0.614s] writing manifest file 'denso_robot_moveit_config.egg-info/SOURCES.txt'
+[0.616s] reading manifest file 'denso_robot_moveit_config.egg-info/SOURCES.txt'
+[0.616s] writing manifest file 'denso_robot_moveit_config.egg-info/SOURCES.txt'
+[0.629s] Built target ament_cmake_python_build_denso_robot_moveit_config_egg
+[0.634s] Invoked command in '/home/mik/denso_ws/build/denso_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/mik/denso_ws/build/denso_robot_moveit_config -- -j8 -l8
+[0.645s] Invoking command in '/home/mik/denso_ws/build/denso_robot_moveit_config': AMENT_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/denso_robot_moveit_config
+[0.648s] -- Install configuration: ""
+[0.648s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/launch
+[0.648s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/launch/denso_robot_moveit.launch.py
+[0.648s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config
+[0.648s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config/controllers.yaml
+[0.648s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config/ompl_planning.yaml
+[0.648s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config/denso_robot_servo.yaml
+[0.648s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config/kinematics.yaml
+[0.648s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/.setup_assistant
+[0.648s] -- Up-to-date: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config
+[0.648s] -- Up-to-date: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config/controllers.yaml
+[0.649s] -- Up-to-date: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config/ompl_planning.yaml
+[0.649s] -- Up-to-date: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config/denso_robot_servo.yaml
+[0.649s] -- Up-to-date: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/config/kinematics.yaml
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/rviz
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/rviz/view_robot.rviz
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/srdf
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/srdf/denso_robot.srdf.xacro
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/srdf/denso_robot_macro.srdf.xacro
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/environment/pythonpath.sh
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/environment/pythonpath.dsv
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config-0.3.0-py3.10.egg-info
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config-0.3.0-py3.10.egg-info/PKG-INFO
+[0.649s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config-0.3.0-py3.10.egg-info/dependency_links.txt
+[0.650s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config-0.3.0-py3.10.egg-info/SOURCES.txt
+[0.650s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config-0.3.0-py3.10.egg-info/top_level.txt
+[0.650s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config
+[0.650s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config/launch_common.py
+[0.650s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config/__init__.py
+[0.666s] Listing '/home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config'...
+[0.666s] Compiling '/home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config/__init__.py'...
+[0.666s] Compiling '/home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/denso_robot_moveit_config/launch_common.py'...
+[0.669s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[0.684s] Compiling '/home/mik/denso_ws/install/denso_robot_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[0.687s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/denso_robot_moveit_config
+[0.687s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/denso_robot_moveit_config
+[0.687s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/environment/ament_prefix_path.sh
+[0.687s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/environment/ament_prefix_path.dsv
+[0.687s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/environment/path.sh
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/environment/path.dsv
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/local_setup.bash
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/local_setup.sh
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/local_setup.zsh
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/local_setup.dsv
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/package.dsv
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/ament_index/resource_index/packages/denso_robot_moveit_config
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/cmake/denso_robot_moveit_configConfig.cmake
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/cmake/denso_robot_moveit_configConfig-version.cmake
+[0.688s] -- Installing: /home/mik/denso_ws/install/denso_robot_moveit_config/share/denso_robot_moveit_config/package.xml
+[0.690s] Invoked command in '/home/mik/denso_ws/build/denso_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mik/denso_ws/install/denso_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/mik/denso_ws/build/denso_robot_moveit_config
