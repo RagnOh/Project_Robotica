@@ -1,0 +1,5 @@
+  File "/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/control_node.py", line 12
+    def timer_callback(self)
+                            ^
+SyntaxError: expected ':'
+

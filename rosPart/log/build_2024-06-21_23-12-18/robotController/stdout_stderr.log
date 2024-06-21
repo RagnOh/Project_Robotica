@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/robotController/robotController.egg-info
+writing ../../build/robotController/robotController.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotController/robotController.egg-info/dependency_links.txt
+writing entry points to ../../build/robotController/robotController.egg-info/entry_points.txt
+writing requirements to ../../build/robotController/robotController.egg-info/requires.txt
+writing top-level names to ../../build/robotController/robotController.egg-info/top_level.txt
+writing manifest file '../../build/robotController/robotController.egg-info/SOURCES.txt'
+reading manifest file '../../build/robotController/robotController.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotController/robotController.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build
+creating /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build/lib
+creating /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build/lib/robotController
+copying robotController/control_node.py -> /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build/lib/robotController
+copying robotController/__init__.py -> /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build/lib/robotController
+running install
+running install_lib
+creating /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController
+copying /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build/lib/robotController/control_node.py -> /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController
+copying /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build/lib/robotController/__init__.py -> /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController
+byte-compiling /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/control_node.py to control_node.cpython-310.pyc
+  File "/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/control_node.py", line 12
+    def timer_callback(self)
+                            ^
+SyntaxError: expected ':'
+
+byte-compiling /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/share/ament_index
+creating /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/share/ament_index/resource_index
+creating /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/share/ament_index/resource_index/packages
+copying resource/robotController -> /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/share/ament_index/resource_index/packages
+copying package.xml -> /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/share/robotController
+running install_egg_info
+Copying ../../build/robotController/robotController.egg-info to /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_node script to /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/robotController
+writing list of installed files to '/home/mik/robotica2/Project_Robotica/rosPart/build/robotController/install.log'
