@@ -1,0 +1,22 @@
+[0.273s] Invoking command in '/home/mik/robotica2/Project_Robotica/rosPart/src/robotController': PYTHONPATH=/home/mik/robotica2/Project_Robotica/rosPart/build/robotController/prefix_override:/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotController build --build-base /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build install --record /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/install.log --single-version-externally-managed install_data
+[0.372s] running egg_info
+[0.373s] writing ../../build/robotController/robotController.egg-info/PKG-INFO
+[0.373s] writing dependency_links to ../../build/robotController/robotController.egg-info/dependency_links.txt
+[0.373s] writing entry points to ../../build/robotController/robotController.egg-info/entry_points.txt
+[0.373s] writing requirements to ../../build/robotController/robotController.egg-info/requires.txt
+[0.373s] writing top-level names to ../../build/robotController/robotController.egg-info/top_level.txt
+[0.374s] reading manifest file '../../build/robotController/robotController.egg-info/SOURCES.txt'
+[0.375s] writing manifest file '../../build/robotController/robotController.egg-info/SOURCES.txt'
+[0.375s] running build
+[0.375s] running build_py
+[0.375s] running install
+[0.375s] running install_lib
+[0.375s] running install_data
+[0.376s] running install_egg_info
+[0.376s] removing '/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController-0.0.0-py3.10.egg-info' (and everything under it)
+[0.376s] Copying ../../build/robotController/robotController.egg-info to /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController-0.0.0-py3.10.egg-info
+[0.377s] running install_scripts
+[0.386s] Installing camera_control script to /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/robotController
+[0.386s] Installing control_node script to /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/robotController
+[0.386s] writing list of installed files to '/home/mik/robotica2/Project_Robotica/rosPart/build/robotController/install.log'
+[0.397s] Invoked command in '/home/mik/robotica2/Project_Robotica/rosPart/src/robotController' returned '0': PYTHONPATH=/home/mik/robotica2/Project_Robotica/rosPart/build/robotController/prefix_override:/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robotController build --build-base /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/build install --record /home/mik/robotica2/Project_Robotica/rosPart/build/robotController/install.log --single-version-externally-managed install_data

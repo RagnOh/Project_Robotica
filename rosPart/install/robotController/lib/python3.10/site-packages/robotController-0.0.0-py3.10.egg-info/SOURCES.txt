@@ -10,6 +10,7 @@ setup.py
 ../../build/robotController/robotController.egg-info/zip-safe
 resource/robotController
 robotController/__init__.py
+robotController/camera_control.py
 robotController/control_node.py
 test/test_copyright.py
 test/test_flake8.py

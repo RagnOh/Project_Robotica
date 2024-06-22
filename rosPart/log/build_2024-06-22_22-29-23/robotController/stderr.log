@@ -1,0 +1,5 @@
+  File "/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/camera_control.py", line 33
+    if __name__ == '__main__'
+                             ^
+SyntaxError: expected ':'
+

@@ -1,3 +1,4 @@
 [console_scripts]
+camera_control = robotController.camera_control:main
 control_node = robotController.control_node:main
 

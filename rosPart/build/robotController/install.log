@@ -1,6 +1,8 @@
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/control_node.py
+/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/camera_control.py
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/__init__.py
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/__pycache__/control_node.cpython-310.pyc
+/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/__pycache__/camera_control.cpython-310.pyc
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController/__pycache__/__init__.cpython-310.pyc
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/share/ament_index/resource_index/packages/robotController
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/share/robotController/package.xml
@@ -11,4 +13,5 @@
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController-0.0.0-py3.10.egg-info/top_level.txt
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController-0.0.0-py3.10.egg-info/entry_points.txt
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/python3.10/site-packages/robotController-0.0.0-py3.10.egg-info/zip-safe
+/home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/robotController/camera_control
 /home/mik/robotica2/Project_Robotica/rosPart/install/robotController/lib/robotController/control_node
